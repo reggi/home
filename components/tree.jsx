@@ -35,7 +35,7 @@ export default (props) => {
       {props.bio && <div className="text-white markdown" dangerouslySetInnerHTML={{ __html: props.bio }}/>}
       {props.infoList && (
         <div className='flex justify-center pb-5'>
-          <ul className='px-10 ml-5'>
+          <ul className='ml-5'>
           {props.infoList.map((i, k) => {
             return (
               <li key={k} className='text-white list-disc' dangerouslySetInnerHTML={{ __html: i }} />
