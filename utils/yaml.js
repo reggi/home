@@ -26,7 +26,7 @@ const getMarkdown = async (content) => {
 }
 
 export async function getYamlData(yamlFile) {
-  const dataContent = await fs.readFile(path.join(process.cwd(), yamlFile), 'utf8')
+  const dataContent = await fs.readFile(path.resolve(process.cwd(), yamlFile), 'utf8')
   const props = parse(dataContent)
   
   const exp = props.exp ? Object.entries(props.exp).map(([key, value]) => [key, expCalculator(value)]) : []
