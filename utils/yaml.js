@@ -2,6 +2,7 @@ import { parse } from 'yaml'
 import fs from 'fs/promises'
 import { remark } from 'remark';
 import html from 'remark-html';
+import path from 'path';
 
 const expCalculator = (date) => {
   const today = new Date();
@@ -25,7 +26,7 @@ const getMarkdown = async (content) => {
 }
 
 export async function getYamlData(yamlFile) {
-  const dataContent = await fs.readFile(yamlFile, 'utf8')
+  const dataContent = await fs.readFile(path.join(process.cwd(), yamlFile), 'utf8')
   const props = parse(dataContent)
   
   const exp = props.exp ? Object.entries(props.exp).map(([key, value]) => [key, expCalculator(value)]) : []
