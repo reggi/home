@@ -1,0 +1,59 @@
+---
+exp: 
+ relationship: Aug 05, 2017
+title: Meet
+bio: |
+  Hi, I'm Thomas Reggi (he/they) 👋. I most likley gave you a business card, met you at a DND night, or met online somewhere.
+
+  I am actively seeking to find a community, meet new people, make friends, learn, and grow in 2023.
+  
+  I'm making more of an effort to participate in potlucks 🍲, meet people in person 🤝, grab coffee ☕️, attend events and meetups 📆, and meet people on apps like Bumble 🐝. 
+backgroundColor: "#010522"
+image: profile-meet.png
+
+links: 
+- title: A little about me 🌹
+  open: true
+  items:
+  - I'm a native New Yorker 🗽
+  - I grew up in Borough Park & Bay Ridge 🥯
+  - I'm 33 Years old 💪
+  - In a relationship with my partner of $exp_relationship years 🫶
+  - Spent a lot ot time in Bed Stuy and Gowanus 📻🐠
+  - I've been coding professionally for over 10 years 🧑‍💻
+  - Exploring coffee shops in Astoria, Greenpoint, and Bushwick ☕️
+  - I love doing yoga ❤️🧘
+- title: Interests or Activities ❤️
+  items:
+  - Spiritual or Meditative Practice 🧘
+  - Hosting Potlucks 🍲
+  - Visiting Art & Gallery spaces 🖼
+  - Model Making, “Kitbashing”, Gunpla 🚂
+  - Collectables & Toys 🤖
+  - Visiting Thrift Stores 👚🛍
+  - Arts & Crafts 🎨
+  - Coding / Electronics? 🧑‍🏭 🧑‍💻
+  - Sewing & Repairs 🧵🪡
+  - Doing Yoga ❤️🧘
+  - Bike Riding 🚴
+  - Board Games 🎲
+  - Magic The Gathering Night 🃏 
+- id: brushwork
+  image: brush.jpg
+  text: Daily Brushwork
+  url: https://brush.reggi.com
+- id: devto
+  image: devto.png
+  text: Tech Blog on dev.to
+  url: https://dev.to/reggi
+- id: substack
+  image: substack.png
+  text: Personal Substack
+  url: https://reggi.substack.com
+- id: mastodon
+  image: mastodon.png
+  text: Mastodon on indieweb.social
+  url: https://indieweb.social/@thomasreggi
+- id: email
+  text: Send me an email
+  url: mailto:thomas@reggi.com
