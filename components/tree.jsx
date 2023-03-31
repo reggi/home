@@ -22,7 +22,7 @@ const Expandable = (props) => {
 
 export default (props) => {
   return (
-    <div className='container mx-auto max-w-screen-md p-10 pt-16'>
+    <div className='container mx-auto max-w-screen-md pt-10 md:pt-16 pb-16 px-5'>
       <style>{`body { background-color: ${props.backgroundColor}; }`}</style>
       <style>{`a { color: #FDBED6;  }`}</style>
       <style>{`a:hover { text-decoration: underline;  }`}</style>
@@ -30,9 +30,9 @@ export default (props) => {
       <div className='pb-5'>
         <Image className='mx-auto rounded-full' src={`/${props.image}`} alt="profile image" width={96} height={96} />
       </div>
-      {props.title && <h1 className='pb-5 text-white text-center text-xl'>{props.title}</h1>}
-      {props.subtitle && <h2 className='pb-5 text-white text-center text-xl'>{props.subtitle}</h2>}
-      {props.bio && <div className="text-white px-5 markdown" dangerouslySetInnerHTML={{ __html: props.bio }}/>}
+      {props.title && <h1 className='pb-5  text-white text-center text-xl'>{props.title}</h1>}
+      {props.subtitle && <h2 className='pb-5  text-white text-center text-xl'>{props.subtitle}</h2>}
+      {props.bio && <div className="text-white markdown" dangerouslySetInnerHTML={{ __html: props.bio }}/>}
       {props.infoList && (
         <div className='flex justify-center pb-5'>
           <ul className='px-10 ml-5'>
@@ -88,8 +88,8 @@ export default (props) => {
           })}
         </div>
       )}
-      <p className='text-white text-center'>
-        Built using React and Next.js.<br/>
+      <p className='text-white text-center pt-16'>
+        Built using Tailwind, React and Next.js. Hosted on <a href="https://vercel.com/">Vercel</a>.<br/>
         Source code available at <a href="https://github.com/reggi/home" className='hover:underline' target="_blank">https://github.com/reggi/home</a>
       </p>
     </div>
