@@ -1,0 +1,51 @@
+---
+exp: 
+  node: Jul 28, 2012
+  typescript: Apr 22, 2017
+  react: Dec 14, 2014
+title: Full-Stack JavaScript Developer Seeking Senior/Staff Role in NYC
+bio: Hi, I'm Thomas Reggi (He / They) 👋. I'm a Full-Stack JavaScript / TypeScript developer based in Queens, NYC. I'm actively searching for a new role, and I created this page to provide information about what I'm looking for. Thanks for taking the time to learn more about me. If you think I could be a good fit for your team, please don't hesitate to reach out.
+backgroundColor: "#010522"
+image: profile-image.jpg
+infoList:
+- I am a **Full-Stack 🥞 JavaScript / TypeScript Developer**
+- I am looking for a **Senior / Staff** role 👷
+- My top priority in a new role is a **good work-life balance 👍🏋️‍♀️🍻⚖️**
+- I have experience using **TypeScript** 🧑‍💻 ($exp_typescript years development experience)
+- My specialty is **Node.js backend API**'s with $exp_node years experience
+- I have $exp_react years experience with **React** ⚛️ and *some* **React Native 📲**
+- I am open to in-person roles in **NYC** 🗽
+- Ready and **willing to go back** to the office 🏢
+- I am open to **fully remote roles 🎮**
+- I'm looking for **medium to large companies**
+- I am looking to take on a **new role immediately 📅**
+- I'm open to **full time** 🌝 work as well as **part-time 🌛 contract**
+- I am a **US Citizen** and **do not require visa** sponsorship
+- I've started my Job Search at the beginning of **January 2023**
+- I am **open to managing** / leading teams
+- I have expierence with eCommerce 🛍 & [Shopify](https://www.shopify.com/)
+links:
+- id: linkedin
+  image: linkedin.png
+  text: LinkedIn Profile
+  url: https://linkedin.com/in/thomasreggi
+- id: calendy
+  text: Schedule some time to chat via Calendly
+  url: https://calendly.com/reggi
+- id: resume
+  text: Downloadable Resume via Google Drive
+  url: https://resume.reggi.com
+- id: phone
+  text: Phone 347-878-7829
+  url: tel:347-878-7829
+- id: email
+  text: Send me an email
+  url: mailto:thomas@reggi.com
+- id: github
+  image: github.png
+  text: Github Profile
+  url: https://github.com/reggi
+- id: stackoverflow 
+  image: stackoverflow.png
+  text: StackOverflow Profile
+  url: https://stackoverflow.com/users/340688/thomasreggi
