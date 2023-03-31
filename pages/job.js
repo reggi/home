@@ -3,6 +3,6 @@ import Tree from '../components/tree'
 
 export default Tree
 
-export async function getServerSideProps () {
+export async function getStaticProps () {
   return getYamlData('./data/job.yaml')
 }
